@@ -17,7 +17,7 @@ body {
 
 .wrapper {
   display: flex;
-  padding: 0 12%;
+  padding: 0 13%;
 }
 
 .container {
@@ -49,7 +49,7 @@ header, #hero, footer {
 
 /* HEADER */
 header {
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 
 .logo {
@@ -74,7 +74,7 @@ header {
 
 /* HERO */
 #hero {
-  height: 50vh;
+  height: 75vh;
   justify-content: center;
   align-items: center;
 }
@@ -94,8 +94,6 @@ header {
 
 .hero__image {
   margin-left: auto;
-  max-width: 100%;
-  max-height: 250px;
 }
 
 /* SHOWCASE */
@@ -108,13 +106,40 @@ header {
 
 .showcase__content {
   gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.showcase__item {
+  justify-content: center;
+  align-items: center;
 }
 
 .showcase__image {
+  width: 100%;
   border: 2px solid #3882F6;
   border-radius: 1rem;
 }
 
 .showcase__text {
   text-align: center;
+}
+
+#quote {
+  background-color: #E5E7EB;
+  padding: 5rem 20rem;
+}
+
+.quote__text {
+  font-size: 2.25rem;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote__author {
+  font-size: 1.25rem;
+  text-align: end;
+  font-weight: 800;
 }
