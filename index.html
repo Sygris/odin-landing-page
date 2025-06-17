@@ -8,64 +8,70 @@
   </head>
   <body>
     <header>
-      <h2 class="logo">Header Logo</h2>
-      <nav class="menu" aria-label="navigation menu">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a class="menu__link" href="#">Header Link One</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Header Link Ttwo</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Header Llink Three</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="wrapper">
+        <h2 class="logo">Header Logo</h2>
+        <nav class="menu" aria-label="navigation menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Header Link One</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Header Link Ttwo</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Header Llink Three</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <section id="hero" class="container">
-        <div class="container">
-          <h1 class="hero__title">This website is awesome</h1>
-          <p class="hero__text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-          <button class="btn" type="button">Sign up</button>
+      <section id="hero" class="wrapper">
+        <div class="hero__content container container--column">
+          <h1 class="hero__title">This website is <br> awesome</h1>
+          <p class="hero__text">This website has some subtext that goes here under the <br> main title. It's a smaller font and the color is lower <br> contrast</p>
+          <button class="btn--hero" type="button">Sign up</button>
         </div>
-        <img src="https://placehold.co/500x250" alt="placehold for hero image">
+        <img class="hero__image" src="https://placehold.co/600x250/darkgrey/white?text=this+is+a+placeholder+for+an+image" alt="placehold for hero image">
       </section>
-      <section id="showcase" class="container">
-        <h2>Some random information.</h2>
-        <article>
-          <img class="showcase__image" src="https://placehold.co/100" alt="showcase item one">
-          <p class="showcase__text">this is some subtext under an illustration or image</p>
-        </article>
-        <article>
-          <img class="showcase__image" src="https://placehold.co/100" alt="showcase item two">
-          <p class="showcase__text">this is some subtext under an illustration or image</p>
-        </article>
-        <article>
-          <img class="showcase__image" src="https://placehold.co/100" alt="showcase item three">
-          <p class="showcase__text">this is some subtext under an illustration or image</p>
-        </article>
-        <article>
-          <img class="showcase__image" src="https://placehold.co/100" alt="showcase item four">
-          <p class="showcase__text">this is some subtext under an illustration or image</p>
-        </article>
-      </section>
-      <section class="container">
+      <section id="showcase" class="wrapper">
+        <div class="container container--column">
+          <h2 class="showcase__title">Some random information.</h2>
+          <div class="container container--row">
+            <article>
+              <img class="showcase__image" src="https://placehold.co/100" alt="showcase item one">
+              <p class="showcase__text">this is some subtext under an illustration or image</p>
+            </article>
+            <article>
+              <img class="showcase__image" src="https://placehold.co/100" alt="showcase item two">
+              <p class="showcase__text">this is some subtext under an illustration or image</p>
+            </article>
+            <article>
+              <img class="showcase__image" src="https://placehold.co/100" alt="showcase item three">
+              <p class="showcase__text">this is some subtext under an illustration or image</p>
+            </article>
+            <article>
+              <img class="showcase__image" src="https://placehold.co/100" alt="showcase item four">
+              <p class="showcase__text">this is some subtext under an illustration or image</p>
+            </article>
+          </div>
+        </section>
+        </div>
+      <section class="wrapper">
         <article id="quote">
           <p class="quote__text">This is an inspiring quote, or a testimonial from a customer. Maybe it´s just filing up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
           <p class="quote__author">-Thor, God of Thunder</p>
         </article>
       </section>
-      <section id="cta">
-        <article>
+      <section id="cta" class="wrapper">
+        <article class="container">
           <h3>Call to action! It's time!</h3>
           <p>Sign up for our product by clicking that button right over there!</p>
           <button type="button">Sign up</button>
         </article>
       </section>
     </main>
-    <footer>
+    <footer class="wrapper">
       <p>Copyright &#169; The Odin Project</p>
     </footer>
   </body>
