@@ -22,6 +22,7 @@ body {
 
 .container {
   display: flex;
+  width: 100%;
 }
 
 .container--row {
@@ -55,6 +56,7 @@ header {
 .logo {
   margin-right: auto;
   font-size: 1.5rem;
+  font-weight: 900;
   color: #F9FAF8;
 }
 
@@ -101,29 +103,36 @@ header {
   font-size: 2.25rem;
   font-weight: 900;
   color: #1F2937;
-  margin: 2rem auto;
+  margin: 3rem auto;
 }
 
 .showcase__content {
-  gap: 1rem;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  width: 100%;
   margin-bottom: 4rem;
 }
 
 .showcase__item {
   justify-content: center;
   align-items: center;
+  margin-bottom: 5rem;
+  width: 170px;
 }
 
 .showcase__image {
-  width: 100%;
-  border: 2px solid #3882F6;
+  aspect-ratio: 1/1;
+  border: 4px solid #3882F6;
   border-radius: 1rem;
 }
 
 .showcase__text {
+  width: 120%;
+  margin-top: 1rem;
+  font-size: 1.125rem;
   text-align: center;
+  color: #6e6e6e;
+  font-weight: 600;
 }
 
 #quote {
@@ -136,10 +145,11 @@ header {
   font-weight: lighter;
   font-style: italic;
   color: #1F2937;
+  text-align: left;
 }
 
 .quote__author {
   font-size: 1.25rem;
   text-align: end;
-  font-weight: 800;
+  font-weight: 600;
 }
