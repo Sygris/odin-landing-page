@@ -79,6 +79,11 @@ header {
 .menu__link {
   font-size: 1.125rem;
   color: #E5E7EB;
+  transition: all .3s ease 0s;
+}
+
+.menu__link:hover {
+  border-bottom: 1px solid #E5E7EB;
 }
 
 /* HERO */
