@@ -37,6 +37,11 @@ body {
   all: unset;
   cursor: pointer;
   text-align: center;
+  transition: all .3s ease 0s;
+}
+
+.btn:hover {
+  opacity: .8;
 }
 
 .btn--hero {
@@ -48,7 +53,6 @@ body {
 }
 
 .btn--cta {
-
 }
 
 header, #hero, footer {
