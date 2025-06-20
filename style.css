@@ -53,6 +53,11 @@ body {
 }
 
 .btn--cta {
+  background-color: #3882F6;
+  border: 3px solid #F9FAF8;
+  padding: .5rem 2rem;
+  border-radius: .5rem;
+  font-weight: 600;
 }
 
 header, #hero, footer {
