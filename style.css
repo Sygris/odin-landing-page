@@ -107,8 +107,7 @@ header {
 }
 
 .showcase__content {
-  width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 4rem;
 }
@@ -135,7 +134,10 @@ header {
 
 #quote {
   background-color: #E5E7EB;
-  padding: 5rem 20rem;
+}
+
+.quote__content {
+  padding: 8rem 13%;
 }
 
 .quote__text {
@@ -143,11 +145,11 @@ header {
   font-weight: lighter;
   font-style: italic;
   color: #1F2937;
-  text-align: left;
 }
 
 .quote__author {
   font-size: 1.25rem;
-  text-align: end;
   font-weight: 600;
+  text-align: end;
+  margin-right: 1rem;
 }
