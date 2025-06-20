@@ -33,15 +33,22 @@ body {
   flex-direction: column;
 }
 
-.btn--hero {
+.btn {
   all: unset;
   cursor: pointer;
+  text-align: center;
+}
+
+.btn--hero {
   background-color: #3882F6;
   color: #F9FAF8;
-  text-align: center;
   max-width: 25%;
   padding: .5rem;
   border-radius: .5rem;
+}
+
+.btn--cta {
+
 }
 
 header, #hero, footer {
@@ -152,4 +159,17 @@ header {
   font-weight: 600;
   text-align: end;
   margin-right: 1rem;
+}
+
+/* CALL TO ACTION */
+#cta {
+  /* padding-top: 5rem;
+  padding-bottom: 5rem; */
+}
+
+.cta__content {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 4rem;
+  border-radius: 1rem;
 }
