@@ -60,6 +60,10 @@ body {
   font-weight: 600;
 }
 
+.btn--cta:hover {
+  border: 3px solid rgba(249, 250, 248, .8)
+}
+
 header, #hero, footer {
   background-color: #1F2937;
 }
